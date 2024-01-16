@@ -1,7 +1,53 @@
 body {
-  background-color: aqua;
+  background-color: rgb(153, 224, 224);
 }
 
 ul.unordered-list {
   font-size: 20px;
 }
+
+
+
+#heading {
+  font-size: 50px;
+}
+
+body {
+  margin: 50px}
+  
+
+
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+div{text-align: center;
+    text-align: start;}
+
+
+#parent {
+  background: lightblue;
+  width: 300px;
+}
+
+#child {
+  background: gold;
+  width: 100%;
+  max-width: 150px;
+}
+
+p.groove {border-style: groove;}
