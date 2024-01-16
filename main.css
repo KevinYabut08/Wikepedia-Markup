@@ -4,7 +4,7 @@ body {
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
-  text-align: start;
+  text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 150px;
@@ -22,19 +22,11 @@ ul.unordered-list {
   font-size: 50px;
 }
 
-p.normal {
-  font-weight: normal;
-}
-
-p.thick {
-  font-weight: bold;
-}
-
-p.thicker {
-  font-weight: 900;
-}
-
 p.groove {
   border-style: groove;
   font-family: "Times New Roman", Times, serif;
+}
+
+.text {
+  text-align: start;
 }
